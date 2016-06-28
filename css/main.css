@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
 #header {
     background-color: #1e1e1e;
     margin: 0 auto;
