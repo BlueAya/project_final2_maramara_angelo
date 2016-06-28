@@ -41,6 +41,8 @@ body {
     }
 }
 
+
+
 h1 {
     color: #aacd6e;
 }
@@ -114,4 +116,76 @@ ul {
 .full-width img {
     min-width: 100%;
     padding-right: 3.1em;
+}
+
+/* @media all and (min-width: 1015px) {
+    #images {
+        width: calc(100% / 4 * 2);
+        display: inline;
+        float: right;
+    }
+}
+
+@media all and (min-width: 1015px) {
+    #colors {
+        width: calc(100% / 4);
+        display: inline;
+    }
+
+    #colors li {
+        display: block;
+    }
+}
+
+@media all and (min-width: 1015px) {
+    #typography {
+        width: calc(100% / 4);
+        float: left;
+    }
+} */
+
+@media all and (min-width: 1015px) {
+    #accents {
+        width: calc(100% / 4 * 3);
+        display: inline;
+        float: right;
+    }
+}
+
+@media all and (min-width: 1015px) {
+    #wrapper {
+        margin-left: 10%;
+    }
+
+    #colors {
+        width: 50%;
+        display: inline;
+        float: right;
+        padding: -40px;
+        margin-top: 2em;
+    }
+
+    #images {
+        width: 50%;
+        float: right;
+        display: inline;
+        margin-top: 3em;
+    }
+
+    #colors li {
+        display: block;
+    }
+}
+
+@media all and (min-width: 1015px) {
+    #typography {
+        width: calc(100% / 4);
+        float: left;
+    }
+}
+
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
 }
