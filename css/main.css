@@ -15,10 +15,15 @@ body {
 #header {
     background-color: #1e1e1e;
     margin: 0 auto;
+    padding: 1em;
 }
 
 #banner img {
     width: 100%;
+}
+
+#typography {
+    padding: 1em;
 }
 
 h1 {
@@ -88,10 +93,10 @@ ul {
 }
 
 #images img {
-    width: calc(100% / 2 - 1em);
+    width: calc(100% / 2 - 1.7em);
 }
 
 .full-width img {
     min-width: 100%;
-    padding-right: 1.6em;
+    padding-right: 3.1em;
 }
