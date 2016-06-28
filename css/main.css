@@ -29,10 +29,6 @@ h2 {
     color: #f16b6f;
 }
 
-ul {
-    list-style-type: none;
-}
-
 /* Link Hover */
 
 .hover-link a {
@@ -65,4 +61,37 @@ button:hover {
 
 img {
     width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Color Images */
+
+#colors li {
+    display: inline;
+}
+
+#colors img {
+    width: calc(100% / 4 - 1em);
+}
+
+/* Images Images */
+
+#images li {
+    display: inline;
+}
+
+#images ul {
+    margin: auto;
+}
+
+#images img {
+    width: calc(100% / 2 - 1em);
+}
+
+.full-width img {
+    min-width: 100%;
+    padding-right: 1.6em;
 }
