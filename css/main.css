@@ -61,7 +61,7 @@ h2 {
 
 button {
     display: block;
-    margin: 0 auto;
+    margin: 1.5em auto 0 auto;
     font-size: 1.2em;
     border: 0;
     background-color: #f16b6f;
