@@ -21,8 +21,46 @@ body {
     width: 100%;
 }
 
+h1 {
+    color: #aacd6e;
+}
+
+h2 {
+    color: #f16b6f;
+}
+
 ul {
     list-style-type: none;
+}
+
+/* Link Hover */
+
+.hover-link a {
+    color: #aacd6e;
+}
+
+.hover-link:hover a {
+    color: #f16b6f;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border: 0;
+    background-color: #f16b6f;
+    color: #ffffff;
+    padding: 1em 2em;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Make sure this works in other browsers */
+
+button:hover {
+    background-color: #aacd6e;
 }
 
 img {
