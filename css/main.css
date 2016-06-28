@@ -144,7 +144,7 @@ ul {
     }
 } */
 
-@media all and (min-width: 1015px) {
+@media all and (min-width: 1400px) {
     #accents {
         width: calc(100% / 4 * 3);
         display: inline;
@@ -152,7 +152,7 @@ ul {
     }
 }
 
-@media all and (min-width: 1015px) {
+@media all and (min-width: 1400px) {
     #wrapper {
         margin-left: 10%;
     }
@@ -181,7 +181,7 @@ ul {
     }
 }
 
-@media all and (min-width: 1015px) {
+@media all and (min-width: 1400px) {
     #typography {
         width: calc(100% / 4);
         float: left;
