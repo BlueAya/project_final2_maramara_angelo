@@ -7,3 +7,12 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+#header {
+    background-color: #1e1e1e;
+    margin: 0 auto;
+}
+
+#banner img {
+    width: 100%;
+}
